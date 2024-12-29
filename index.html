@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amo a Gaby</title>
+    <style>
+        body {
+            background-image: url(https://assets.codepen.io/4927073/Group2.png), linear-gradient(33deg, #edf2f7, #edf2f7);
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* coracao */
+        svg {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* carta2 */
+        .envelope {
+            content: url(https://assets.codepen.io/4927073/Envelope3.png);
+            width: 80%;
+            max-width: 400px;
+            margin: 20px auto;
+            display: block;
+        }
+
+        .card {
+            position: relative;
+            width: 90%;
+            max-width: 300px;
+            margin: 20px auto;
+            box-shadow: inset 5px 0px 15px 0px rgba(0, 0, 0, 0.1), 3px 0px 3px -2px rgba(0, 0, 0, 0.3);
+            background-color: #fffffa;
+        }
+
+        .text-container {
+            width: 90%;
+            margin: 20px auto;
+            text-align: center;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        .fontcarta2 {
+            font-size: 1.2rem;
+        }
+
+        /* carta1 */
+        .envelop {
+            width: 90%;
+            max-width: 400px;
+            margin: 20px auto;
+        }
+
+        .envelop__front-paper {
+            clip-path: polygon(100% 0%, 50% 70%, 0% 0%, 0% 100%, 100% 100%);
+            background-color: #ba9872;
+        }
+
+        .envelop__back-paper {
+            clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 90%);
+            background-color: #967b5c;
+        }
+
+        .love-notes {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .note {
+            width: 100%;
+            padding: 10px;
+            background-color: #f9f9f9;
+            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+        }
+
+        .note__text {
+            font-size: 1rem;
+            line-height: 1.5;
+            text-align: center;
+        }
+
+        @media (min-width: 600px) {
+            .card {
+                max-width: 400px;
+            }
+
+            .fontcarta2 {
+                font-size: 1.5rem;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .text-container {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- coracao -->
+    <svg xmlns="http://www.w3.org/2000/svg" id="svg5" viewBox="0 0 502.98 108.61">
+        <path id="heart" d="M213.35 29.43c19.41-15.19 33.68 10.86 37.73 18.82-.28-13.61 11.64-40.98 25.94-34.01 32.3 15.74-15.88 83.8-26.4 81.76-13.24-9-51.35-53.3-37.27-66.57Z" style="fill:#ff9999;stroke:#ff9999;stroke-width:1.5"/>
+    </svg>
+    <br><br>
+
+    <!-- carta2 -->
+    <div class="envelope"></div>
+    
+    <div class="card">
+        <div class="text-container">
+            <p class="fontcarta2"> 
+                
+                Obrigado por passar esse ano comigo. Foi o melhor ano da minha vida, por sua causa. Você se tornou a pessoa mais especial para mim você me faz sentir feliz só de estar perto. EU TE AMO MUITO S2
+              
+            </p>
+        </div>
+    </div>
+</body>
+</html>
